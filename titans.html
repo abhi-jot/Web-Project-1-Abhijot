@@ -1,11 +1,26 @@
 <!doctype html>
+  <!-- 
+  name: Abhijot Dhaliwal
+  Course: Web Development 10S
+  Teacher: Mr. Hardman
+  School: Pembina Trails Collegiate (PTC)
+  Date Last Modified: 
+  -->
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>More about titans</title>
   </head>
-  <body style="background-color: gray" text="white">
+  <!-- this is the body and everything goes inside of the body in the body i also played arounf with css and made the background color gray -->
+  <body style="background-color: grey" text="white">
+    <!-- this is the header and everything in the header goes here in the header is the nav bar it is used to switch between pages of your website 
+      
+      in the nav you also put a unordered list and a unordered list is used to make a list of things and in this case it is used to make a list of links to other pages of my website.
+
+      in the unordered list you put a list item and in the list item you put a link to another page of your website.
+
+      in the nav bar you can also put a horizontal line to make a line that goes across the screan it can help separate stuff out.-->
     <header>
       <nav>
         <ul>
@@ -13,12 +28,16 @@
           <li><a href="endstory.html">The end of attack on titan</a></li>
         </ul>
       </nav>
+      <!-- this is a h1 and its the biggest heading it is used for new topics in it i also underlined it so it sticks out more -->
       <h1><u>Titans</u></h1>
+      <!-- this is a h2 this is a h2 because its in the same catagory of the h1 tag which talks anout titans it is also underlined so it sticks out more -->
       <h2><u>all of the titans explained</u></h2>
+      <!-- this is a paragraph tag and in it is a description of the titans -->
       <p>There are many types of titans Pure Titans are Mindless giants that wander and devour humans purely on instinct. and theres the shifters that are Special, intelligent Titans passed down through specific bloodlines (like the Attack Titan, Colossal Titan, and Armored Titan) that allow human to transform and get overpowered titan abilities. </p>
+      <!-- this is a break line it makes space so everything does not look stuck together -->
       <br />
       <h2><u>the 9 titans and what they do</u></h2>
-
+      <!-- this is a unordered list and in the unordered list is a list item and in the list item is a description of the titan and what it does -->
     <ul>
       <li>attack titan is one of the strongest and he is used for alot of side quests and fighting other titans </li>
       <hr>
@@ -47,10 +66,86 @@
       <li>The Cart Titan is used for helping and it can carry stuff on its back so its one of the most usefull titans.</li>
       <br />
     </ul>
+    <!-- i know this image path is wrong but when i was trying normally it would not work so ivan helped me fix it.this is a image tag, the image tag lets me put an image on the website  theres also a alt tag which for people with screen readers it reads out the image description -->
     <img src="images/the 9 titans real.jpg" alt="a picture of all of the 9 titans and their names">
-    <br />
+    <!-- this is a iframe its a youtube video thats been embeded -->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/yoRqeOr7KTQ?si=LUA2mHmvf7pkdMoD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <!-- This is a table in the table tag i put style woth 100 percent so its spaced out i start with table then tr after tr its th that creats the top then all you do is instead of th you put td for the actual stuff under the table -->
+    <table style="width: 100%">
+      <tr>
+        <th>titan</th>
+        <th>current user</th>
+        <th>height of titan</th>
+      </tr>
+      <tr>
+        <td>Attack Titan</td>
+        <td>Eren Yeager</td>
+        <td>15 meters</td>
+      </tr>
+      <tr>
+        <td>Founding Titan</td>
+        <td>Eren Yeager</td>
+        <td>350-750 meters</td>
+      </tr>
+      <tr>
+        <td>Armored Titan</td>
+        <td>Reiner Braun</td>
+        <td>15 meters</td>
+      </tr>
+      <tr>
+        <td>Colossal Titan</td>
+        <td>Bertholdt Hoover</td>
+        <td>60 meters</td>
+      </tr>
+      <tr>
+        <td>Beast Titan</td>
+        <td>Zeke Yeager</td>
+        <td>17 meters</td>
+      </tr>
+      <tr>
+        <td>Female Titan</td>
+        <td>Annie Leonhart</td>
+        <td>14 meters</td>
+      </tr>
+      <tr>
+        <td>Jaw Titan</td>
+        <td>Porco Galliard</td>
+        <td>5 meters</td>
+      </tr>
+      <tr>
+        <td>War Hammer Titan</td>
+        <td>Lara Tybur</td>
+        <td>15 meters</td>
+      </tr>
+      <tr>
+        <td>Cart Titan</td>
+        <td>Pieck Finger</td>
+        <td>4 meters</td>
+      </tr>
+    </table>
+    <!-- this is a horizontal line it makes a line that goes across the screen so things look more organized -->
     <hr />
+    <!-- heres another h1 for fun facts and its underlined so it sticks out -->
     <h1><u>Fun little form about attack on titan</u></h1>
+
+
+    <!-- this is a form and in a form there a id and the id means identification so like who it is in this ase its all of the people for example eren yeaager, reiner braun 
+    
+    after id is the name and the name stays the same so in this case it is favourite titan shifter .
+
+    after name its method and i used method=get because it is used to get information from the user and send it to the server.
+
+    those are what you put in a form tag
+
+    after that you make a fieldset and in the fieldset you put a legend and the legend is like a title for the fieldset in my case it is who's your favourite titan shifter out of the nine
+    
+    then you put a input tag and in the input tag you put a type and the type is radio because it is a radio button and you can only select one option at a time.
+
+    then comes label and the label is used to describe the input tag and it is displayed on the website.
+
+    this is for a radio button form
+    -->
     <form
       id="character-info"
       name="attack-on-titan-characters-form"
@@ -128,6 +223,7 @@
         <input type="reset" value="reset" />
         <input type="button" value="click me for fun">
       </fieldset>
+      <!-- this is a form for check boxes it is the same as the otyher form but it just has checkboxes and you can select multiple -->
       <fieldset>
         <legend>what titan would you want to be</legend> 
         <input type="checkbox" id="attck" name="titan-you-want" value="attack">
@@ -157,9 +253,11 @@
         <input type="checkbox" id="cart" name="titan-you-want" value="cart">
         <label for="cart">Cart Titan</label>
         <br />
+        <br />
         <input type="submit" value="submit">
         <input type="reset" value="reset">
       </fieldset>
+      <!-- this is a text form its a bit different instead of a value you pu t a placeholder and it also has the reset and submitt buttons -->
       <fieldset>
         <legend>who is your favourit character Mikasa, Eren, or Armin</legend>
         <label for="favourite-character">Mikasa, Eren, or Armin</label> 
@@ -170,23 +268,47 @@
         <input type="submit" value="submit">
         <input type="reset" value="reset">
       </fieldset>
+      <!-- this is a slider for my website to ratre it on a scale of 1 to 10 -->
+      <fieldset>
+        <legend>Trying this for fun rate my website</legend>
+        <label for="difficultyslider">rate this website on a scale of 1 to 10</label>
+        <input type="range" id="difficultyslider" name="difficultyslider" min="1" max="10" value="5"> 
+        <br />
+        <br />
+        <input type="submit" value="submit">
+        <input type="reset" value="reset">
+      </fieldset>
     </form>
     <br />
     <br />  
     <hr>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/yoRqeOr7KTQ?si=LUA2mHmvf7pkdMoD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
     
+
+    <table style="width: 100%">
+      <tr>
+        <th>1</th>
+        <th>2</th>
+        <th>3</th>
+      </tr>
+    </table>
 
     </header>
     <footer>
       <hr />
+      <!-- this is the same as the other nav it just links back to the top and back to the first page 
+      
+      i also put a cpoyright in my footer so people know who made the website and when it was made
+
+      there a unordered list and in the unordered list is a list item and in the list item is a link to another page of my website
+      -->
       <nav>
         <ul>
-          <li><a href="index.html">Back to the top</a></li>
-          <li><a href="endstory.html">More about Titans</a></li>
+          <li><a href="titans.html">Back to the top</a></li>
+          <li><a href="index.html">back to the home page</a></li>
         </ul>
       </nav>
-      <p>Copyright &copy; 2024 Abhijot Dhaliwal</p>
-
+      <p>Copyright &copy; 2026 Abhijot Dhaliwal</p>
+      </footer>
   </body>
 </html>
